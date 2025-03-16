@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Blotatris
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-16T15:33:07.563+01:00
-/// Signature : a1ae8abc663d858e2c04b5ace223ab393fe428b7
+/// File last update : 2025-03-16T17:51:34.000+01:00
+/// Signature : 4bde4009c0d55136abe631958b16cad6db6b93cc
 /// ***************************************************************************
 /// </summary>
 
@@ -40,15 +40,15 @@ uses
   Olf.FMX.AboutDialog in '..\lib-externes\AboutDialog-Delphi-Component\src\Olf.FMX.AboutDialog.pas',
   Olf.FMX.AboutDialogForm in '..\lib-externes\AboutDialog-Delphi-Component\src\Olf.FMX.AboutDialogForm.pas' {OlfAboutDialogForm},
   u_urlOpen in '..\lib-externes\librairies\src\u_urlOpen.pas',
-  uConsts in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uConsts.pas',
+  uConsts in 'uConsts.pas',
   Olf.RTL.Language in '..\lib-externes\librairies\src\Olf.RTL.Language.pas',
   Olf.RTL.CryptDecrypt in '..\lib-externes\librairies\src\Olf.RTL.CryptDecrypt.pas',
   Olf.RTL.Params in '..\lib-externes\librairies\src\Olf.RTL.Params.pas',
   Olf.Skia.SVGToBitmap in '..\lib-externes\librairies\src\Olf.Skia.SVGToBitmap.pas',
   uDMAboutBox in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMAboutBox.pas' {AboutBox: TDataModule},
-  uDMAboutBoxLogoStorrage in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMAboutBoxLogoStorrage.pas' {dmAboutBoxLogo: TDataModule},
-  uTxtAboutLicense in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uTxtAboutLicense.pas',
-  uTxtAboutDescription in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uTxtAboutDescription.pas',
+  uDMAboutBoxLogoStorrage in 'uDMAboutBoxLogoStorrage.pas' {dmAboutBoxLogo: TDataModule},
+  uTxtAboutLicense in 'uTxtAboutLicense.pas',
+  uTxtAboutDescription in 'uTxtAboutDescription.pas',
   Gamolf.FMX.HelpBar in '..\lib-externes\Delphi-Game-Engine\src\Gamolf.FMX.HelpBar.pas',
   Gamolf.FMX.Joystick in '..\lib-externes\Delphi-Game-Engine\src\Gamolf.FMX.Joystick.pas',
   Gamolf.FMX.MusicLoop in '..\lib-externes\Delphi-Game-Engine\src\Gamolf.FMX.MusicLoop.pas',
@@ -70,13 +70,17 @@ uses
   Olf.RTL.Streams in '..\lib-externes\librairies\src\Olf.RTL.Streams.pas',
   Olf.RTL.Maths.Conversions in '..\lib-externes\librairies\src\Olf.RTL.Maths.Conversions.pas',
   uBackgroundMusic in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uBackgroundMusic.pas',
-  uSoundEffects in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uSoundEffects.pas',
+  uSoundEffects in 'uSoundEffects.pas',
   USVGInputPrompts in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\assets\kenney_nl\InputPrompts\USVGInputPrompts.pas',
   uDMGameControllerCenter in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMGameControllerCenter.pas' {DMGameControllerCenter: TDataModule},
-  uSVGBitmapManager_InputPrompts in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uSVGBitmapManager_InputPrompts.pas',
+  uSVGBitmapManager_InputPrompts in 'uSVGBitmapManager_InputPrompts.pas',
   uDMHelpBarManager in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMHelpBarManager.pas' {HelpBarManager: TDataModule},
   _ButtonsAncestor in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\_ButtonsAncestor.pas' {__ButtonAncestor: TFrame},
-  uSceneBackground in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uSceneBackground.pas' {SceneBackground: TFrame};
+  uSceneBackground in 'uSceneBackground.pas' {SceneBackground: TFrame},
+  udmAdobeStock_275402686 in '..\_PRIVATE\assets\images\AdobeStock\AdobeStock_275402686\udmAdobeStock_275402686.pas' {dmAdobeStock_275402686: TDataModule},
+  udmAdobeStock_440583506 in '..\_PRIVATE\assets\images\AdobeStock\AdobeStock_440583506\udmAdobeStock_440583506.pas' {dmAdobeStock_440583506: TDataModule},
+  USVGKenney in '..\assets\Kenney\USVGKenney.pas',
+  Olf.RTL.SystemAppearance in '..\lib-externes\librairies\src\Olf.RTL.SystemAppearance.pas';
 
 {$R *.res}
 
@@ -85,5 +89,7 @@ begin
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
   Application.CreateForm(TDMGameControllerCenter, DMGameControllerCenter);
+  Application.CreateForm(TdmAdobeStock_275402686, dmAdobeStock_275402686);
+  Application.CreateForm(TdmAdobeStock_440583506, dmAdobeStock_440583506);
   Application.Run;
 end.
