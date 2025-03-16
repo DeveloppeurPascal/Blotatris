@@ -708,6 +708,36 @@
         </DCCReference>
         <DCCReference Include="..\assets\Kenney\USVGKenney.pas"/>
         <DCCReference Include="..\lib-externes\librairies\src\Olf.RTL.SystemAppearance.pas"/>
+        <DCCReference Include="uSceneHome.pas">
+            <Form>HomeScene</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uSceneOptions.pas">
+            <Form>OptionsScene</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uSceneHallOfFame.pas">
+            <Form>HallOfFameScene</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uSceneCredits.pas">
+            <Form>CreditsScene</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uSceneGameOver.pas">
+            <Form>GameOverScene</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uSceneGame.pas">
+            <Form>GameScene</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

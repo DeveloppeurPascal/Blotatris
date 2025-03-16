@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Blotatris
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-16T17:51:34.000+01:00
-/// Signature : 4bde4009c0d55136abe631958b16cad6db6b93cc
+/// File last update : 2025-03-16T18:55:42.000+01:00
+/// Signature : 19fd2d81cf90d0f84e21df017e85840c8cc63e9f
 /// ***************************************************************************
 /// </summary>
 
@@ -80,7 +80,13 @@ uses
   udmAdobeStock_275402686 in '..\_PRIVATE\assets\images\AdobeStock\AdobeStock_275402686\udmAdobeStock_275402686.pas' {dmAdobeStock_275402686: TDataModule},
   udmAdobeStock_440583506 in '..\_PRIVATE\assets\images\AdobeStock\AdobeStock_440583506\udmAdobeStock_440583506.pas' {dmAdobeStock_440583506: TDataModule},
   USVGKenney in '..\assets\Kenney\USVGKenney.pas',
-  Olf.RTL.SystemAppearance in '..\lib-externes\librairies\src\Olf.RTL.SystemAppearance.pas';
+  Olf.RTL.SystemAppearance in '..\lib-externes\librairies\src\Olf.RTL.SystemAppearance.pas',
+  uSceneHome in 'uSceneHome.pas' {HomeScene: TFrame},
+  uSceneOptions in 'uSceneOptions.pas' {OptionsScene: TFrame},
+  uSceneHallOfFame in 'uSceneHallOfFame.pas' {HallOfFameScene: TFrame},
+  uSceneCredits in 'uSceneCredits.pas' {CreditsScene: TFrame},
+  uSceneGameOver in 'uSceneGameOver.pas' {GameOverScene: TFrame},
+  uSceneGame in 'uSceneGame.pas' {GameScene: TFrame};
 
 {$R *.res}
 
