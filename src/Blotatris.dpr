@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Blotatris
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-16T19:16:18.000+01:00
-/// Signature : d0cdc3fba9cc8ae2d58b255b7af11beb8b5307c6
+/// File last update : 2025-03-16T20:10:42.000+01:00
+/// Signature : 289397babf601041f916c20aa1669521fc35e93e
 /// ***************************************************************************
 /// </summary>
 
@@ -88,7 +88,8 @@ uses
   uSceneGameOver in 'uSceneGameOver.pas' {GameOverScene: TFrame},
   uSceneGame in 'uSceneGame.pas' {GameScene: TFrame},
   uTextButton in 'uTextButton.pas' {TextButton: TFrame},
-  Olf.FMX.TextImageFrame in '..\lib-externes\librairies\src\Olf.FMX.TextImageFrame.pas' {OlfFMXTextImageFrame: TFrame};
+  Olf.FMX.TextImageFrame in '..\lib-externes\librairies\src\Olf.FMX.TextImageFrame.pas' {OlfFMXTextImageFrame: TFrame},
+  cGameTitle in 'cGameTitle.pas' {GameTitle: TFrame};
 
 {$R *.res}
 
