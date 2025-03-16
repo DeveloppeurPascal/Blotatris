@@ -19,7 +19,9 @@
   <FileNamePolicy>0</FileNamePolicy>
   <CompilerVersion>27</CompilerVersion>
   <TargetPlatform>0</TargetPlatform>
-  <Sources/>
+  <Sources>
+    <Source>.\Blotatris.dpr</Source>
+  </Sources>
   <Outputs>
     <Output Type="HTML">
       <Active>true</Active>
