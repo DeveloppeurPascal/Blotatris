@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Blotatris
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-16T19:33:06.000+01:00
-/// Signature : a48fd8cfb464825e1bebdf09747c3d15fd94a64f
+/// File last update : 2025-03-16T20:26:02.000+01:00
+/// Signature : b8c3042a5b16dcf2cd04672b0da45b63d8a04384
 /// ***************************************************************************
 /// </summary>
 
@@ -87,7 +87,9 @@ end;
 function TTextButton.GetImageIndexOfUnknowChar(Sender: TOlfFMXTextImageFrame;
   AChar: char): integer;
 begin
-  result := Sender.getImageIndexOfChar('_' + AChar);
+  result := Sender.getImageIndexOfChar(UpperCase(AChar));
+  // TODO : autoriser les minuscules lorsque que les proportions seront conservées entre les lettres
+  // result := Sender.getImageIndexOfChar('_' + AChar);
 end;
 
 procedure TTextButton.Repaint;
