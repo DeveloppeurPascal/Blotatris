@@ -1,0 +1,14 @@
+object GameTitle: TGameTitle
+  HitTest = False
+  Size.Width = 320.000000000000000000
+  Size.Height = 150.000000000000000000
+  Size.PlatformDefault = False
+  inline OlfFMXTextImageFrame1: TOlfFMXTextImageFrame
+    Align = Center
+    Locked = True
+    HitTest = False
+    Size.Width = 320.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
