@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Blotatris
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-16T17:38:32.000+01:00
-/// Signature : 9835233b459d270106a77fd2596dcb3f07fdcfbe
+/// File last update : 2025-03-16T20:22:56.000+01:00
+/// Signature : 2452e6085b2767042358ae67a0e4dc187c42ef2a
 /// ***************************************************************************
 /// </summary>
 
@@ -89,10 +89,10 @@ const
   /// </remarks>
 {$IFDEF DEBUG}
   // In DEBUG mode
-  COpenGameInFullScreenMode = false;
+  COpenGameInFullScreenMode = true; // TODO : faire des tests en fenêtre
 {$ELSE}
   // For other compilations (including RELEASE)
-  COpenGameInFullScreenMode = false;
+  COpenGameInFullScreenMode = true;
 {$ENDIF}
   //
   /// <summary>
