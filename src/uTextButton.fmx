@@ -1,0 +1,65 @@
+inherited TextButton: TTextButton
+  Size.Width = 192.000000000000000000
+  Size.Height = 64.000000000000000000
+  object UpImage: TRectangle
+    Align = Contents
+    Fill.Bitmap.WrapMode = Tile
+    Fill.Kind = Bitmap
+    Locked = True
+    HitTest = False
+    Size.Width = 192.000000000000000000
+    Size.Height = 64.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    inline UpText: TOlfFMXTextImageFrame
+      Align = Client
+      Locked = True
+      HitTest = False
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 26.000000000000000000
+      Size.Width = 182.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object DownImage: TRectangle
+    Align = Contents
+    Fill.Bitmap.WrapMode = Tile
+    Fill.Kind = Bitmap
+    Locked = True
+    HitTest = False
+    Size.Width = 192.000000000000000000
+    Size.Height = 64.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    inline DownText: TOlfFMXTextImageFrame
+      Align = Client
+      Locked = True
+      HitTest = False
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 23.000000000000000000
+      Margins.Bottom = 23.000000000000000000
+      Size.Width = 182.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object HasFocusImage: TRectangle
+    Align = Right
+    Fill.Bitmap.WrapMode = Tile
+    Fill.Kind = Bitmap
+    Locked = True
+    HitTest = False
+    Margins.Top = 7.000000000000000000
+    Margins.Right = -35.000000000000000000
+    Margins.Bottom = 7.000000000000000000
+    Position.X = 177.000000000000000000
+    Position.Y = 7.000000000000000000
+    RotationAngle = -55.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end

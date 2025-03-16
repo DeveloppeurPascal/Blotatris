@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Blotatris
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-16T18:55:42.000+01:00
-/// Signature : 19fd2d81cf90d0f84e21df017e85840c8cc63e9f
+/// File last update : 2025-03-16T19:16:18.000+01:00
+/// Signature : d0cdc3fba9cc8ae2d58b255b7af11beb8b5307c6
 /// ***************************************************************************
 /// </summary>
 
@@ -86,7 +86,9 @@ uses
   uSceneHallOfFame in 'uSceneHallOfFame.pas' {HallOfFameScene: TFrame},
   uSceneCredits in 'uSceneCredits.pas' {CreditsScene: TFrame},
   uSceneGameOver in 'uSceneGameOver.pas' {GameOverScene: TFrame},
-  uSceneGame in 'uSceneGame.pas' {GameScene: TFrame};
+  uSceneGame in 'uSceneGame.pas' {GameScene: TFrame},
+  uTextButton in 'uTextButton.pas' {TextButton: TFrame},
+  Olf.FMX.TextImageFrame in '..\lib-externes\librairies\src\Olf.FMX.TextImageFrame.pas' {OlfFMXTextImageFrame: TFrame};
 
 {$R *.res}
 
